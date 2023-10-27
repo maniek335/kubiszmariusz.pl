@@ -1,11 +1,13 @@
 {
   "name": "nuxt-app",
+  "packageManager": "pnpm@8.10.0",
   "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "preinstall": "npx only-allow pnpm",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
